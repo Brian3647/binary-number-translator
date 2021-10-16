@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es3",
+		"module": "commonjs",
+		"outDir": "dist",
+		"rootDir": "lib",
+		"isolatedModules": true,
+		"strict": true,
+		"baseUrl": "lib",
+		"esModuleInterop": true,
+		"lib": ["ES2020"],
+		"declaration": true,
+		"removeComments": false
+	},
+	"include": ["lib/**/*.ts"],
+	"exclude": ["node_modules", "dist"]
+}
