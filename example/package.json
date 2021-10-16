@@ -6,6 +6,6 @@
 	"author": "Brian3647",
 	"private": true,
 	"dependencies": {
-		"binary-number-translator": "*"
+		"binary-number-translator": "^0.0.3"
 	}
 }

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-binary-number-translator@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/binary-number-translator/-/binary-number-translator-0.0.1.tgz#84ac2586aa327b97f84c98d5bdb1d108a8de45e0"
-  integrity sha512-HKsJT6r4fZ561WqjvQpYZK0+H87AE9MLCHVGRIKX2ZDessD/Kh15wauhHZl2ruJHW42lLhg3dP0SCQzh0Bzqvw==
+binary-number-translator@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/binary-number-translator/-/binary-number-translator-0.0.3.tgz#4593bf17ed1d263dd8ef18f0e833e564427e766e"
+  integrity sha512-xXo8gKzRzE4Fvl8Xfw1oea2KfEHghm4yMhK2XRyCyrNU4hQDZgOOanGM7WLv6XqGF0a4TZVudrR6NnUThjH5qw==
