@@ -8,7 +8,7 @@
  * console.log(convert('00000010')); // 2
  * console.log(convert('00000110')); // 6
  */
-const convert = (input: string): number => {
+export const convert = (input: string): number => {
 	let res = 0;
 
 	assert_eq(input.length, 8, 'Expected 1 byte length (8 characters)');
@@ -28,12 +28,13 @@ const convert = (input: string): number => {
 	return res;
 };
 
-export default convert;
-
 const assert_eq = <L, R>(val: L, compare: R, msg?: string): void | never => {
 	if ((val as unknown) !== compare) {
 		const fmt = (msg && `\n- ${msg}`) || '';
-		throw `Assertion failed: ${val} != ${compare}${fmt}`;
+		throw (
+			'Error with binary-number-translator' +
+			`Assertion failed: ${val} != ${compare}${fmt}`
+		);
 	}
 };
 
@@ -45,6 +46,9 @@ const assert_eq_of = <T>(val: T, compare: T[], msg?: string): void | never => {
 
 		fmt = fmt.join('').substring(0, fmt.join('').length - 4);
 
-		throw `Assertion failed: ${fmt}${(msg && `\n- ${msg}`) || ''}`;
+		throw (
+			'Error with binary-number-translator' +
+			`Assertion failed: ${fmt}${(msg && `\n- ${msg}`) || ''}`
+		);
 	}
 };

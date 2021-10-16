@@ -15,5 +15,5 @@
 		"quotes": ["error", "single"],
 		"semi": ["error", "always"]
 	},
-	"ignorePatterns": ["dist"]
+	"ignorePatterns": ["dist", "example"]
 }

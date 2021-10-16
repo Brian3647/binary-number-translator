@@ -1,0 +1,11 @@
+{
+	"name": "example",
+	"version": "0.0.0",
+	"description": "Example use of binary-number-translator",
+	"main": "index.js",
+	"author": "Brian3647",
+	"private": true,
+	"dependencies": {
+		"binary-number-translator": "*"
+	}
+}
